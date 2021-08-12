@@ -40,7 +40,7 @@ The idea for this variation on `stimulus-hotkeys` was inspired by and borrows co
 
 ## Setup
 
-Note: **stimulus-shortcut requires StimulusJS v2.0+**
+Note: **stimulus-shortcut requires StimulusJS v2.0 or later**
 
 Add stimulus-shortcut to your main JS entry point or Stimulus controllers root folder:
 
