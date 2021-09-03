@@ -1,6 +1,6 @@
 {
   "name": "stimulus-shortcut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Stimulus controller for mapping keystrokes to element events",
   "keywords": ["stimulus", "stimulusjs", "hotkeys", "event", "shortcut"],
   "main": "dist/index.js",
