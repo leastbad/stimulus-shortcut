@@ -2,13 +2,7 @@
   "name": "stimulus-shortcut",
   "version": "1.0.0",
   "description": "A Stimulus controller for mapping keystrokes to element events",
-  "keywords": [
-    "stimulus",
-    "stimulusjs",
-    "hotkeys",
-    "event",
-    "shortcut"
-  ],
+  "keywords": ["stimulus", "stimulusjs", "hotkeys", "event", "shortcut"],
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.m.js",
@@ -30,7 +24,7 @@
   },
   "dependencies": {
     "hotkeys-js": "^3.8.1",
-    "stimulus": "https://github.com/stimulusjs/dev-builds/archive/b8cc8c4/stimulus.tar.gz"
+    "stimulus": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

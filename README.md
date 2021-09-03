@@ -20,7 +20,7 @@
 
 ## Built for StimulusJS
 
-This [Stimulus](https://stimulusjs.org/) controller allows you to detect a keyboard shortcut and trigger the default action of the element the controller is attached to. This is an easy way to create shortcut keys for your application. Once registered in your Stimulus application, you can use it anywhere you like.
+This [Stimulus](https://stimulus.hotwired.dev/) controller allows you to detect a keyboard shortcut and trigger the default action of the element the controller is attached to. This is an easy way to create shortcut keys for your application. Once registered in your Stimulus application, you can use it anywhere you like.
 
 This controller is the sister to [stimulus-hotkeys](https://www.npmjs.com/package/stimulus-hotkeys) and since they share the same dependency, both can be used in the same project to great effect.
 
@@ -41,8 +41,6 @@ The idea for this variation on `stimulus-hotkeys` was inspired by and borrows co
 ## Setup
 
 Note: **stimulus-shortcut requires StimulusJS v2.0+**
-
-*If you are reading this in the past* (Stimulus 2 isn't out yet) you can change your `stimulus` package in `package.json` to point to [this commit](https://github.com/stimulusjs/dev-builds/archive/b8cc8c4/stimulus.tar.gz).
 
 Add stimulus-shortcut to your main JS entry point or Stimulus controllers root folder:
 

@@ -21,11 +21,11 @@ export default class extends Controller {
       return
     }
     this.actOnHotkey = this.actOnHotkey.bind(this)
-    this.event =
+    const event =
       this.eventValue ||
       this.defaultEventNames[this.element.tagName.toLowerCase()] ||
       'click'
-    this.eventFactory = this.newEvent.bind(null, this.element, this.event)
+    this.eventFactory = this.newEvent.bind(null, this.element, event)
   }
 
   connect () {
