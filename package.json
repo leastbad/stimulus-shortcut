@@ -1,6 +1,6 @@
 {
   "name": "stimulus-shortcut",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Stimulus controller for mapping keystrokes to element events",
   "keywords": ["stimulus", "stimulusjs", "hotkeys", "event", "shortcut"],
   "main": "dist/index.js",
@@ -23,8 +23,8 @@
     "url": "https://github.com/leastbad/stimulus-shortcut/issues"
   },
   "dependencies": {
-    "hotkeys-js": "^3.8.1",
-    "stimulus": "^2.0.0"
+    "hotkeys-js": "^3.8.7",
+    "stimulus": ">=2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
